@@ -13,9 +13,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,6 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/64112672/183493484-538bb503-b0c5-4e8e-bc92-69c2e35dd929.png)
 
 ### Links
 
