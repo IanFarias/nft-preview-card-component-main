@@ -48,5 +48,5 @@ I was able to practice semantic HTML and Mobile-first workflow.
 
 - Website - [Linkedin](https://www.linkedin.com/in/ianfariaspaix%C3%A3o/)
 - Frontend Mentor - [@IanFarias](https://www.frontendmentor.io/profile/IanFarias)
-- Twitter - [@IanFariaas](https://www.twitter.com/yourusername)
+- Twitter - [@IanFariaas](https://www.twitter.com/IanFariaas)
 
