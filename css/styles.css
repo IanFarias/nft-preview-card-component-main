@@ -1,0 +1,119 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+    --dark-blue-bg: hsl(217, 54%, 11%);
+    --dark-blue-card-bg: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+}
+
+body {
+    background-color: var(--dark-blue-bg);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft-card {
+    max-width: 300px;
+    height: 502px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--dark-blue-card-bg);
+    box-shadow: 0px 16px 4px 18px hsl(219deg 56% 10%);
+}
+
+.nft-card__image {
+    border-radius: 5px;
+}
+
+.ntf-card__content {
+    margin: 15px 0 15px 0;
+}
+
+.nft-card__title {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.nft-card__description {
+    color: var(--soft-blue);
+    font-size: 16px;
+}
+
+.ntf-card__price-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ntf-card__price {
+    color: var(--primary-cyan);
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.ntf-card__days-left {
+    color: var(--soft-blue);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.ntf-card__price svg,
+.ntf-card__days-left svg {
+    margin-right: 5px;
+}
+
+.ntf-card__creator-content {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin: 20px 0px 5px 0px;
+    border-top: 2px solid var(--dark-blue-line);
+}
+
+.ntf-card__avatar {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--soft-blue);
+}
+
+.ntf-card__creation {
+    color: var(--soft-blue);
+    font-size: 12px;
+}
+
+.ntf-card__creator-name {
+    color: var(--white);
+}
+
+.attribution { 
+    color: white;
+    align-self:center;
+    font-size: 16px; text-align: center; 
+}
+
+.attribution a { 
+    color: var(--primary-cyan); 
+}
+
+
+
+
+
